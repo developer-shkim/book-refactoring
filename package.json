@@ -1,0 +1,8 @@
+{
+  "name": "book-refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "developer-shkim <developer.shkim@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
