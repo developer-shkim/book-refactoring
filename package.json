@@ -4,5 +4,12 @@
   "main": "index.js",
   "author": "developer-shkim <developer.shkim@gmail.com>",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }

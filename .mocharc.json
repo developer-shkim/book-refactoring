@@ -1,0 +1,5 @@
+{
+  "diff": true,
+  "reporter": "landing",
+  "spec": ["__tests__/**/*.js"]
+}
