@@ -1,3 +1,5 @@
+import { invoice, plays } from "./data.js";
+
 export default function statement(invoice, plays) {
   let totalAmount = 0;
   let volumeCredits = 0;
@@ -44,5 +46,9 @@ export default function statement(invoice, plays) {
   result += `총액: ${format(totalAmount / 100)}\n`;
   result += `적립 포인트: ${volumeCredits}점\n\n`;
 
+  console.log(result);
+
   return result;
 }
+
+statement(invoice, plays);
