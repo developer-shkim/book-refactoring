@@ -1,3 +1,5 @@
+import { invoice, plays } from "./data.js";
+
 export default function statement(invoice, plays) {
   function playFor(aPerformance) {
     return plays[aPerformance.playID];
@@ -74,5 +76,9 @@ export default function statement(invoice, plays) {
   result += `총액: ${usd(totalAmount())}\n`;
   result += `적립 포인트: ${totalVolumeCredits()}점\n\n`;
 
+  console.log(result);
+
   return result;
 }
+
+statement(invoice, plays);
